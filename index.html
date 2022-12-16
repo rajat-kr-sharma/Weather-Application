@@ -1,1 +1,58 @@
-dc
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Weather API</title>
+</head>
+<body onload="DefaultScreen()">
+  <div class="topContainer">
+    <h1 id="Para1">Weather APP</h1>
+    <p id="inputContainer"><input type="text" id="cityInput" placeholder="Enter city Name"></p>
+    <button type="button" onclick="GetInfo()">Search</button>
+    <h2 id="timeDisplay">Time is - 00:00:00<h2>
+    <h2 id="cityName">---Delhi---</h2>
+  </div>
+  <div class="nextWeather">
+    <div class="icons">
+      <p class="weather" id="day1"></p>
+      <p id="temp1"></p>
+      <p id="desc1"></p>
+      <p id="windSpeed1"></p>
+      <p id="humidity1"></p>
+    </div> 
+    <div class="icons">
+      <p class="weather" id="day2"></p>
+      <p id="temp2"></p>
+      <p id="desc2"></p>
+      <p id="windSpeed2"></p>
+      <p id="humidity2"></p>
+    </div> 
+    <div class="icons">
+      <p class="weather" id="day3"></p>
+      <p id="temp3"></p>
+      <p id="desc3"></p>
+      <p id="windSpeed3"></p>
+      <p id="humidity3"></p>
+    </div>
+    <div class="icons">
+      <p class="weather" id="day4"></p>
+      <p id="temp4"></p>
+      <p id="desc4"></p>
+      <p id="windSpeed4"></p>
+      <p id="humidity4"></p>
+    </div>
+    <div class="icons">
+      <p class="weather" id="day5"></p>
+      <p id="temp5"></p>
+      <p id="desc5"></p>
+      <p id="windSpeed5"></p>
+      <p id="humidity5"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+</html>
